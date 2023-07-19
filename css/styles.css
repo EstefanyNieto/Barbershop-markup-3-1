@@ -140,13 +140,13 @@ line-height: normal;
 letter-spacing: 1.2px;
 position: absolute;
 }
-.list .nav-bar{
-  position: absolute;
+.list .nav-bar {
+  display: flex;
 }
 
 .link.header-navbar-navlink{
-position: absolute;
-color: #FFFFFF;
+display: flex;
+color:black;
 
 }
 
@@ -387,6 +387,10 @@ top:845px;
   display:inline-flex;
   width:200px;
   margin: 0;
+}
+
+.width585{
+  width:585px;
 }
 /*WHY DO THEY COME TO US SECTION*/
 
