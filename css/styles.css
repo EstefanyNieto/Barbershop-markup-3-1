@@ -1,0 +1,499 @@
+/* importing raleway and open sans fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700;800&family=Raleway:wght@500;600;700&display=swap');
+:root{
+  --main-bg-color:black;
+  --secondary-bg-color:white;
+  --navlink-hover-color:#FF6C00;
+  --paragraph-color:rgb(157, 164, 189, 0.6);
+  --desc-paragraph-color:#9DA4BD;
+  --about-text:#303030;
+  --overview-txt:#555555;
+
+}
+
+*,
+*::before,
+::after{
+  box-sizing: border-box;
+}
+.container{
+width: 1125px;
+height: 680px;
+flex-shrink: 0;
+
+}
+.header-container{
+  display: flex;
+}
+
+img{
+  display:block;
+  max-width: 100%;
+  height:auto;
+
+}
+ body{
+  font-family: "Open Sans";
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: .02em;
+  background-color:white;
+ }
+
+ h1,h2{
+  font-family: "Raleway";
+ }
+
+ p{
+  font-family:"Open Sans";
+
+ }
+
+/* navigation section */
+
+  .nav-link{
+  color: #FFFFFF;
+}
+.nav-link:hover,
+.navlink:focus{
+  color:var( --navlink-hover-color);
+}
+.button-nav{
+  position: absolute;
+  width:160px;
+  height:40px;
+  left: 1065px;
+  top:40px;
+  box-sizing: border-box;
+  border:1px solid #FF6C00;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255,1);
+  border-radius: 25px;
+
+}
+
+button:active{
+background-color:var(--navlink-hover-color);
+}
+  
+button:hover{
+cursor:pointer;
+}
+
+.section{
+  padding-top: 130px;
+  border: 1px solid black;
+}
+.link{
+  text-decoration: none;
+  color:inherit;
+}
+.list{
+  list-style: none;
+}
+
+.list-images{
+  display: flex;
+}
+.container{
+  width: 1280 px;
+  padding: 0 55px;
+  margin: 0 auto;
+}
+
+.list{
+  display: flex;
+}
+
+.section-address .underline{
+  text-decoration: underline;
+
+}
+
+
+.disp-flex{
+  display: flex;
+  margin-top:-30px;
+  margin-left:-30px;
+
+}
+
+.list-item-margin{
+  margin-top: 30px;
+  margin-left:30px;
+}
+
+.secondary-bg-color{
+background-color:var(--secondary-bg-color);
+}
+
+/* main tittle section*/
+
+.header-navbar-navlink.active{
+color: #FF6C00;
+font-size: 12px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 1.2px;
+position: absolute;
+}
+.list .nav-bar{
+  position: absolute;
+}
+
+.link.header-navbar-navlink{
+position: absolute;
+color: #FFFFFF;
+
+}
+
+.main-tittle-section{
+  
+  width: 1125px;
+  height:680px;
+  left:1280px;
+  top:0px;
+  background: rgba(25, 28, 38, 0.2);
+  transform: matrix(-1, 0, 0, 0);
+  background-image: url(/images/barber.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.main-title{
+  position: absolute;
+  width: 500px;
+  height: 85px;
+  left:255px;
+  top:307px;
+  color:#FFFFFF;
+text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+font-family: "Raleway";
+font-size: 72px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing:0.05em;
+display: flex;
+
+
+}
+.subheading1.transparent-gray1{
+position: absolute;
+width:199px;
+height:15px;
+left:335px;
+top:272px;
+font-family: "open sans";
+font-style:normal;
+font-weight:600;
+font-size:11px;
+line-height:15px;
+letter-spacing:0.1em;
+text-transform: uppercase;
+color:rgba(157, 164, 189, 0.60);  
+}
+.overview-description{
+  position: absolute;
+  width: 486px;
+  height:62px;
+  left:255px;
+  top:412px;
+  font-family: "open sans";
+  font-style: normal;
+  font-weight:400;
+  font-size:18px;
+  line-height:30px;
+  letter-spacing: 0.02em;
+  color:#9DA4BD;
+}
+
+
+.back{
+  position:absolute;
+  width:29px;
+  height:15px;
+  left:1079px;
+  top:616px;
+  color:rgb(157, 164, 189, 0.6);
+  cursor: pointer;
+}
+.next{
+  position:absolute;
+  width:29px;
+  height:15px;
+  left:1196px;
+  top:616px;
+  text-align:right;
+  color:#FFFFFF;
+  cursor: pointer;
+}
+
+.button-back{
+color: rgba(157, 164, 189, 0.60);
+font-family: Open Sans;
+font-size: 11px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 1.1px;
+cursor: pointer;
+}
+.button-next{
+  color: #FFF;
+text-align: right;
+font-family: Open Sans;
+font-size: 11px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 1.1px;
+}
+.rectangle{
+color: rgba(157, 164, 189, 0.60);
+font-family: Open Sans;
+font-size: 11px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 1.1px;
+
+}
+.social{
+  transform: rotate(90deg);
+}
+
+
+/*ABOUT US SECTION*/
+
+.section .about_us-section{
+
+color: #303030;
+font-family: Open Sans;
+font-size: 11px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 1.1px;
+text-transform: uppercase;
+}
+
+.section-heading-about{
+  color: #303030;
+font-family: Raleway;
+font-size: 42px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 2.1px;
+display: flex;
+width: 500px;
+height:98px;
+left:689px;
+top:845px;
+}
+.paragraph-color2{
+  position: absolute;
+  width: 500px;
+  height:60px;
+  left:689px;
+  top:963px;
+  color:#555555;
+  font-size: 18px;
+}
+
+.paragraph-color-two{
+  position: absolute;
+  width: 536px;
+  height:104px;
+  left:689px;
+  top:1043px;
+  font-size: 14px;
+
+}
+.button-service-two{
+  box-sizing: border-box;
+  position: absolute;
+  width: 160px;
+  height:40px;
+  left:689px;
+  top:1187px;
+  border: 1px solid #FF6C00;
+  border-radius: 25px;
+  }
+
+.container-about-us{
+  display: flex;
+}
+
+/* SERVICES AND PRICES SECTION*/
+
+.section-prices{
+  background-image:url(/images/pricessection.jpg);
+  width: 1280px;
+  height:718px;
+  left:0px;
+  top:1385px;
+}
+
+.subheading-prices{
+  position: absolute;
+  width: 348px;
+  height:15px;
+  top:1515px;
+  left:135px;
+  font-family: "open sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size:11px;
+  line-height:15px;
+  letter-spacing:0.1em;
+  text-transform: uppercase;
+  color:rgb(157, 164, 189, 0.6)
+  
+}
+
+.services-prices{
+  position: absolute;
+  width: 500px;
+  height:49px;
+  left:55px;
+  top:1550px;
+  font-family:"raleway";
+  font-style: normal;
+  font-weight:700;
+  font-size:42px;
+  line-height:49px;
+  letter-spacing:0.05em;
+  color:#FFFFFF;
+}
+
+.button-prices{
+  box-sizing: border-box;
+  position: absolute;
+  width: 160px;
+  height:40px;
+  left:565px;
+  top:1933px;
+  border:1px solid #FF6C00;
+  border-radius: 25px;
+}
+
+.inlin-blk{
+  display:inline-flex;
+  width:200px;
+  margin: 0;
+}
+/*WHY DO THEY COME TO US SECTION*/
+
+.subheading-oldschool{
+  position: absolute;
+  width: 81px;
+  height:15px;
+  left:735px;
+  top:2233px;
+  font-family:"open sans";
+  font-style:normal;
+  font-weight:600;
+  font-size:11px;
+  line-height:15px;
+  letter-spacing:0.1em;
+  text-transform:uppercase;
+  color:#303030
+}
+.title-why-do{
+position: absolute;
+width: 420px;
+height:98px;
+left:655px;
+top:2268px;
+font-family:"raleway";
+font-style:normal;
+font-weight:700;
+font-size:42px;
+line-height:49px;
+letter-spacing:0.05em;
+color:#303030;
+
+}
+.only-good-paragraph{
+  position: absolute;
+  width: 470px;
+  height:90px;
+  left:655px;
+  top:2386px;
+  font-family:"open sans";
+  font-style:normal;
+  font-weight:400;
+  font-size:18px;
+  line-height:30px;
+  letter-spacing:0.02em;
+  color:#555555;
+
+}
+
+/*OUR BARBERS SECTION*/
+
+.subheading-fortrue{
+  position: absolute;
+  width:298px;
+  height:15px;
+  left:135px;
+  top:2815px;
+  font-family:"open sans";
+  font-style:normal;
+  font-weight:600;
+  font-size:11px;
+  line-height:15px;
+  letter-spacing:0.1em;
+  text-transform:uppercase;
+  color:#303030;
+}
+
+.section-ourbarbers{
+  position: absolute;
+  width:500px;
+  height:49px;
+  left:55px;
+  top:2850px;
+  font-family:"raleway";
+  font-style:normal;
+  font-weight:700;
+  font-size:42px;
+  line-height:49px;
+  letter-spacing:0.05em;
+  color:#303030;
+
+}
+
+.barber-name {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.text-barber{
+  text-align: center;
+}
+
+
+/*OUR BARBERS IN ACTION SECTION*/
+
+.subheading-inlatin{
+  position: absolute;
+  width:221px;
+  height:15px;
+  left:135px;
+  top:3705px;
+  font-family:"open sans";
+  font-style: normal;
+  font-weight:600;
+  font-size:11px;
+  line-height:15px;
+  letter-spacing:0.1em;
+  text-transform: uppercase;
+  color:#303030;
+}
