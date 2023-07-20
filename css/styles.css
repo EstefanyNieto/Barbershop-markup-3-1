@@ -12,11 +12,14 @@
 
 }
 
-*,
-*::before,
-::after{
-  box-sizing: border-box;
-}
+h1,h2,h3,h4,h5,h6,p { margin: 0;}
+html { box-sizing: border-box;}
+*,*::after,*::before { box-sizing: inherit;}
+img { display: block; max-width: 100%; height: auto;}
+address { font-style: normal;}
+.list { list-style: none; padding: 0; margin: 0;}  
+
+
 .container{
 width: 1125px;
 height: 680px;
@@ -41,15 +44,7 @@ img{
   background-color:white;
  }
 
- h1,h2{
-  font-family: "Raleway";
- }
-
- p{
-  font-family:"Open Sans";
-
- }
-
+ 
 /* navigation section */
 
   .nav-link{
@@ -59,18 +54,47 @@ img{
 .navlink:focus{
   color:var( --navlink-hover-color);
 }
-.button-nav{
-  position: absolute;
-  width:160px;
-  height:40px;
-  left: 1065px;
-  top:40px;
+
+.main-header-navbar-navlink{
+align-items: center;
+padding: 100px;
+padding-right: 0px;
+cursor: pointer;
+text-decoration: none;
+color: #FF6C00;
+font-family: "Open Sans";
+font-size: 11px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 1.1px;
+text-transform: uppercase;
+
+}
+
+.header-navbar-navlink{
+align-items: center;
+padding-left:40px;
+color: #FFF;
+font-family: Open Sans;
+font-size: 11px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 1.1px;
+text-transform: uppercase;
+}
+
+
+.button-navi{
+  align-items: center;
+  padding-left: 25px;
+  padding-right: 25px;
   box-sizing: border-box;
   border:1px solid #FF6C00;
   border-radius: 25px;
   background-color: rgba(255, 255, 255,1);
   border-radius: 25px;
-
 }
 
 button:active{
@@ -89,9 +113,7 @@ cursor:pointer;
   text-decoration: none;
   color:inherit;
 }
-.list{
-  list-style: none;
-}
+
 
 .list-images{
   display: flex;
@@ -138,12 +160,17 @@ font-style: normal;
 font-weight: 600;
 line-height: normal;
 letter-spacing: 1.2px;
-position: absolute;
+position: flex;
 }
 .list .nav-bar {
   display: flex;
 }
 
+.list {
+  display: flex;
+  align-items: center;
+  
+}
 .link.header-navbar-navlink{
 display: flex;
 color:black;
@@ -151,7 +178,7 @@ color:black;
 }
 
 .main-tittle-section{
-  
+  padding-left: 100px;
   width: 1125px;
   height:680px;
   left:1280px;
@@ -164,8 +191,9 @@ color:black;
   background-repeat: no-repeat;
 
 }
+
 .main-title{
-  position: absolute;
+  position:flex;
   width: 500px;
   height: 85px;
   left:255px;
@@ -183,7 +211,7 @@ display: flex;
 
 }
 .subheading1.transparent-gray1{
-position: absolute;
+position:flex;
 width:199px;
 height:15px;
 left:335px;
@@ -198,7 +226,7 @@ text-transform: uppercase;
 color:rgba(157, 164, 189, 0.60);  
 }
 .overview-description{
-  position: absolute;
+  position: flex;
   width: 486px;
   height:62px;
   left:255px;
@@ -213,30 +241,15 @@ color:rgba(157, 164, 189, 0.60);
 }
 
 
-.back{
-  position:absolute;
-  width:29px;
-  height:15px;
-  left:1079px;
-  top:616px;
-  color:rgb(157, 164, 189, 0.6);
-  cursor: pointer;
-}
-.next{
-  position:absolute;
-  width:29px;
-  height:15px;
-  left:1196px;
-  top:616px;
-  text-align:right;
-  color:#FFFFFF;
-  cursor: pointer;
-}
+
 
 .button-back{
+margin-left: 924px;
+display: flex;
 color: rgba(157, 164, 189, 0.60);
-font-family: Open Sans;
+font-family: "Open Sans";
 font-size: 11px;
+text-align: right;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
@@ -244,9 +257,11 @@ letter-spacing: 1.1px;
 cursor: pointer;
 }
 .button-next{
+  margin-left: 1000px;
+  display: flex;
   color: #FFF;
 text-align: right;
-font-family: Open Sans;
+font-family: "Open Sans";
 font-size: 11px;
 font-style: normal;
 font-weight: 600;
@@ -270,10 +285,21 @@ letter-spacing: 1.1px;
 
 /*ABOUT US SECTION*/
 
-.section .about_us-section{
-
+.about_us-section{
+display: flex;
 color: #303030;
-font-family: Open Sans;
+font-family: "Open Sans";
+font-size: 11px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 1.1px;
+text-transform: none;
+}
+.subheading-black{
+display: flex;
+font-style:"open-sans";
+color: #303030;
 font-size: 11px;
 font-style: normal;
 font-weight: 600;
@@ -283,8 +309,8 @@ text-transform: uppercase;
 }
 
 .section-heading-about{
-  color: #303030;
-font-family: Raleway;
+color: #303030;
+font-family: "Raleway";
 font-size: 42px;
 font-style: normal;
 font-weight: 700;
@@ -296,8 +322,9 @@ height:98px;
 left:689px;
 top:845px;
 }
+
 .paragraph-color2{
-  position: absolute;
+  position: flex;
   width: 500px;
   height:60px;
   left:689px;
@@ -307,7 +334,7 @@ top:845px;
 }
 
 .paragraph-color-two{
-  position: absolute;
+  position: flex;
   width: 536px;
   height:104px;
   left:689px;
@@ -317,7 +344,7 @@ top:845px;
 }
 .button-service-two{
   box-sizing: border-box;
-  position: absolute;
+  position: flex;
   width: 160px;
   height:40px;
   left:689px;
@@ -326,9 +353,6 @@ top:845px;
   border-radius: 25px;
   }
 
-.container-about-us{
-  display: flex;
-}
 
 /* SERVICES AND PRICES SECTION*/
 
@@ -341,7 +365,7 @@ top:845px;
 }
 
 .subheading-prices{
-  position: absolute;
+  position: flex;
   width: 348px;
   height:15px;
   top:1515px;
@@ -358,7 +382,7 @@ top:845px;
 }
 
 .services-prices{
-  position: absolute;
+  position: flex;
   width: 500px;
   height:49px;
   left:55px;
@@ -374,7 +398,7 @@ top:845px;
 
 .button-prices{
   box-sizing: border-box;
-  position: absolute;
+  position: flex;
   width: 160px;
   height:40px;
   left:565px;
@@ -443,7 +467,7 @@ color:#303030;
 /*OUR BARBERS SECTION*/
 
 .subheading-fortrue{
-  position: absolute;
+  position: flex;
   width:298px;
   height:15px;
   left:135px;
@@ -487,7 +511,7 @@ color:#303030;
 /*OUR BARBERS IN ACTION SECTION*/
 
 .subheading-inlatin{
-  position: absolute;
+  position: flex;
   width:221px;
   height:15px;
   left:135px;
