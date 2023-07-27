@@ -54,36 +54,31 @@ body{
 }
 
 .main-header-navbar-navlink{
-align-items: center;
-padding: 100px;
-padding-right: 0px;
-cursor: pointer;
-text-decoration: none;
-color: #FF6C00;
-font-family: "Open Sans";
-font-size: 11px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-letter-spacing: 1.1px;
-text-transform: uppercase;
-
-}
+ align-items: center;
+ cursor: pointer;
+  color: #FF6C00;
+  font-family: "Open Sans";
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 600;
+  padding-left: 40px;
+  text-transform: uppercase;
+  }
 
 .header-navbar-navlink{
 
-align-items: center;
-padding-left:40px;
-color: #FFF;
-font-family: Open Sans;
-font-size: 11px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-letter-spacing: 1.1px;
-text-transform: uppercase;
-
-}
+  align-items: center;
+  padding-left:40px;
+  color: #FFF;
+  font-family: Open Sans;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+  
+  }
 
  
 .button-navi{
@@ -150,27 +145,12 @@ background-color:var(--secondary-bg-color);
 /* main tittle section*/
 
 
-.header-navbar-navlink.active{
-color: #FF6C00;
-font-size: 12px;
-font-family: "Open Sans";
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-letter-spacing: 1.2px;
-display: flex;
-}
+
 .list.nav-bar {
   display: flex;
 }
 .list{
   display: flex;
-}
-
-.link.header-navbar-navlink{
-display: flex;
-color:black;
-
 }
 
 .main-tittle-section
@@ -183,8 +163,6 @@ color:black;
   background-repeat: no-repeat;
 
 }
-
-
 
 
 .main-title{
@@ -234,9 +212,6 @@ color:rgba(157, 164, 189, 0.60);
   letter-spacing: 0.02em;
   color:#9DA4BD;
 }
-
-
-
 
 
 /*ABOUT US SECTION*/
