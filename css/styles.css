@@ -169,11 +169,7 @@ color:black;
 }
 
 .main-tittle-section{
-  padding-left: 100px;
-  width: 1125px;
-  height:680px;
-  left:1280px;
-  top:0px;
+  
   background: rgba(25, 28, 38, 0.2);
   transform: matrix(-1, 0, 0, 0);
   background-image: url(../images/barber.jpg);
@@ -182,6 +178,9 @@ color:black;
   background-repeat: no-repeat;
 
 }
+
+
+
 
 .main-title{
   display:flex;
@@ -310,11 +309,11 @@ display: flex;
 /* SERVICES AND PRICES SECTION*/
 
 .section-prices{
-  background-image:url(/images/pricessection.jpg);
-  width: 1280px;
-  height:718px;
-  left:0px;
-  top:1385px;
+  background-image:url(../images/pricessection.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
 }
 
 .subheading-prices{
