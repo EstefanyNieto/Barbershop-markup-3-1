@@ -41,6 +41,10 @@ body{
  
 /* navigation section */
 
+.header-bg{
+  background: url(../images/barber.jpg) no-repeat 1555px;
+}
+
   .nav-link{
   color: #FFFFFF;
 }
@@ -145,10 +149,11 @@ background-color:var(--secondary-bg-color);
 
 /* main tittle section*/
 
+
 .header-navbar-navlink.active{
 color: #FF6C00;
 font-size: 12px;
-font-family: Open Sans;
+font-family: "Open Sans";
 font-style: normal;
 font-weight: 600;
 line-height: normal;
@@ -168,8 +173,8 @@ color:black;
 
 }
 
-.main-tittle-section{
-  
+.main-tittle-section
+ {
   background: rgba(25, 28, 38, 0.2);
   transform: matrix(-1, 0, 0, 0);
   background-image: url(../images/barber.jpg);
@@ -258,12 +263,6 @@ color:rgba(157, 164, 189, 0.60);
 .subheading-black{
 display: flex;
 color: #303030;
-font-size: 11px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-letter-spacing: 1.1px;
-text-transform: uppercase;
 }
 
 .section-heading-about{
@@ -275,26 +274,18 @@ font-weight: 700;
 line-height: normal;
 letter-spacing: 2.1px;
 display: flex;
-
-
 }
 
 .paragraph-color2{
   position: flex;
-  width: 500px;
-  height:60px;
-  left:689px;
-  top:963px;
+ 
   color:#555555;
   font-size: 18px;
 }
 
 .paragraph-color-two{
   position: flex;
-  width: 536px;
-  height:104px;
-  left:689px;
-  top:1043px;
+  font-family: "Open Sans";
   font-size: 14px;
 
 }
@@ -318,43 +309,21 @@ display: flex;
 
 .subheading-prices{
   position: flex;
-  width: 348px;
-  height:15px;
-  top:1515px;
-  left:135px;
   font-family: "open sans";
-  font-style: normal;
-  font-weight: 600;
   font-size:11px;
-  line-height:15px;
-  letter-spacing:0.1em;
-  text-transform: uppercase;
   color:rgb(157, 164, 189, 0.6)
-  
-}
+  }
 
 .services-prices{
   position: flex;
-  width: 500px;
-  height:49px;
-  left:55px;
-  top:1550px;
   font-family:"raleway";
-  font-style: normal;
-  font-weight:700;
   font-size:42px;
-  line-height:49px;
-  letter-spacing:0.05em;
   color:#FFFFFF;
 }
 
 .button-prices{
   box-sizing: border-box;
   position: flex;
-  width: 160px;
-  height:40px;
-  left:565px;
-  top:1933px;
   border:1px solid #FF6C00;
   border-radius: 25px;
 }
@@ -365,9 +334,7 @@ display: flex;
   margin: 0;
 }
 
-.width585{
-  width:585px;
-}
+
 /*WHY DO THEY COME TO US SECTION*/
 
 .subheading-oldschool{
