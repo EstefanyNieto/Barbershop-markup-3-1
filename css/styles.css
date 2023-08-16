@@ -9,7 +9,8 @@
   --desc-paragraph-color:#9DA4BD;
   --about-text:#303030;
   --overview-txt:#555555;
-
+  --time-ms:250ms;
+  --time-function:cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 h1,h2,h3,h4,h5,h6,p { margin: 0;}
@@ -462,4 +463,17 @@ font-family: "Open Sans";
 font-size: 18px;
 line-height: 30px; 
 letter-spacing: 0.36px;
+}
+
+.contact-icon{
+  color: #FF6C00;
+}
+
+.contact-icon{
+  fill: #FF6C00;
+  margin-right: 10px;
+  transition: color var(--time-ms) var(--time-function);
+}
+.contact-icon:hover{
+  fill: #FF6C00;
 }
