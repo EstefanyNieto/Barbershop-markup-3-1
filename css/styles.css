@@ -465,15 +465,23 @@ line-height: 30px;
 letter-spacing: 0.36px;
 }
 
-.contact-icon{
-  color: #FF6C00;
+
+.contact-icon-link-svg{
+  fill: #FF6C00;
+  width:"20";
+  height:"20";
+  transition: color var(--time-ms) var(--time-function);
+  align-items: center;
+ justify-content: center;
+  border-radius: 10%;
 }
 
-.contact-icon{
-  fill: #FF6C00;
-  margin-right: 10px;
-  transition: color var(--time-ms) var(--time-function);
+
+.contact-icon-link-svg:hover,
+  .contact-icon-link-svg:focus{
+  background-color: var(--webstudio-link-color);
+  color: var(--main-bg-color);
 }
-.contact-icon:hover{
+.contact-icon-link-svg:hover{
   fill: #FF6C00;
 }
