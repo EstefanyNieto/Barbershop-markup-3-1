@@ -467,9 +467,10 @@ letter-spacing: 0.36px;
 
 
 .contact-icon-link-svg{
-  fill: #FF6C00;
+  fill: #303030;
   width:"20";
   height:"20";
+  flex-shrink: 0;
   transition: color var(--time-ms) var(--time-function);
   align-items: center;
  justify-content: center;
