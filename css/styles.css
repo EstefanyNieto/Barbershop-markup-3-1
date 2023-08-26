@@ -472,17 +472,14 @@ letter-spacing: 0.36px;
   height:"20";
   flex-shrink: 0;
   transition: color var(--time-ms) var(--time-function);
-  align-items: center;
- justify-content: center;
+  justify-content: center;
   border-radius: 10%;
 }
 
-
-.contact-icon-link-svg:hover,
-  .contact-icon-link-svg:focus{
-  background-color: var(--webstudio-link-color);
-  color: var(--main-bg-color);
-}
-.contact-icon-link-svg:hover{
+.contact-icon:hover{
   fill: #FF6C00;
+}
+
+.contact-icon{
+  align-items: center;
 }
